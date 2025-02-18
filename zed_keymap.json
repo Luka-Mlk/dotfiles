@@ -1,0 +1,26 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "m": "project_panel::CollapseAllEntries"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl h": "workspace::ActivatePaneLeft",
+      "ctrl j": "workspace::ActivatePaneDown",
+      "ctrl k": "workspace::ActivatePaneUp",
+      "ctrl l": "workspace::ActivatePaneRight",
+
+      "ctrl H": "workspace::SwapPaneLeft",
+      "ctrl J": "workspace::SwapPaneDown",
+      "ctrl L": "workspace::SwapPaneRight",
+      "ctrl K": "workspace::SwapPaneUp",
+
+      "ctrl-m": "project_panel::NewDirectory"
+    }
+  }
+]
+

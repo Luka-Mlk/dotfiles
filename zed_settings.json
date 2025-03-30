@@ -26,6 +26,6 @@
   "autosave": "on_focus_change",
   "relative_line_numbers": true,
   "soft_wrap": "editor_width",
-  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
-  "ui_font_family": "JetBrainsMono Nerd Font Mono"
+  "buffer_font_family": "JetBrainsMonoNL Nerd Font",
+  "ui_font_family": "JetBrainsMonoNL Nerd Font"
 }

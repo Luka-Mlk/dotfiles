@@ -9,6 +9,15 @@
 // "ui_font_size": 16, - defaults
 // "buffer_font_size": 16,
 {
+  "edit_predictions": {
+    "mode": "subtle",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null
+    },
+    "enabled_in_assistant": false
+  },
+  "icon_theme": "Material Icon Theme",
   "languages": {
     "JavaScript": {
       "show_edit_predictions": true
@@ -21,11 +30,14 @@
     "dark": "One Dark"
   },
   "vim_mode": true,
-  "ui_font_size": 16,
-  "buffer_font_size": 13.0,
+  "ui_font_size": 12,
+  "buffer_font_size": 12.0,
   "autosave": "on_focus_change",
   "relative_line_numbers": true,
   "soft_wrap": "editor_width",
   "buffer_font_family": "JetBrainsMono Nerd Font Mono",
-  "ui_font_family": "JetBrainsMono Nerd Font Mono"
+  "ui_font_family": "JetBrainsMono Nerd Font Mono",
+  "features": {
+    "edit_prediction_provider": "copilot"
+  }
 }

@@ -15,7 +15,7 @@
       "proxy": null,
       "proxy_no_verify": null
     },
-    "enabled_in_assistant": false
+    "enabled_in_text_threads": false
   },
   "icon_theme": "Material Icon Theme",
   "languages": {

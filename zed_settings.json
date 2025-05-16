@@ -21,6 +21,13 @@
   "languages": {
     "JavaScript": {
       "show_edit_predictions": true
+      // requires globally installed prettier
+      // "formatter": {
+      //   "external": {
+      //     "command": "prettier",
+      //     "arguments": ["--stdin-filepath", "{buffer_path}"]
+      //   }
+      // }
     }
   },
   "show_edit_predictions": true,

@@ -21,6 +21,13 @@
 
       "ctrl-m": "project_panel::NewDirectory"
     }
+  },
+  {
+    "context": "vim_mode == normal && !menu",
+    "bindings": {
+      "tab": "pane::ActivateNextItem",
+      "shift-tab": "pane::ActivatePreviousItem"
+    }
   }
 ]
 

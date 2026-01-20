@@ -20,14 +20,12 @@
   "icon_theme": "Material Icon Theme",
   "languages": {
     "JavaScript": {
-      "show_edit_predictions": true
-      // requires globally installed prettier
-      // "formatter": {
-      //   "external": {
-      //     "command": "prettier",
-      //     "arguments": ["--stdin-filepath", "{buffer_path}"]
-      //   }
-      // }
+      "formatter": {
+        "external": {
+          "command": "prettier",
+          "arguments": ["--stdin-filepath", "{buffer_path}"]
+        }
+      }
     }
   },
   "show_edit_predictions": true,
@@ -39,8 +37,10 @@
   "vim_mode": true,
   "ui_font_size": 14,
   "buffer_font_size": 14.0,
+  // "ui_font_weight": 300,
+  // "buffer_font_weight": 300,
   "autosave": "on_focus_change",
-  "relative_line_numbers": true,
+  "relative_line_numbers": "enabled",
   "soft_wrap": "editor_width",
   "buffer_font_family": "JetBrainsMonoNL Nerd Font",
   "ui_font_family": "JetBrainsMonoNL Nerd Font",

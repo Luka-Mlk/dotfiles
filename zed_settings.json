@@ -36,15 +36,12 @@
   },
   "vim_mode": true,
   "ui_font_size": 14,
-  "buffer_font_size": 14.0,
+  "buffer_font_size": 14,
   // "ui_font_weight": 300,
   // "buffer_font_weight": 300,
   "autosave": "on_focus_change",
   "relative_line_numbers": "enabled",
   "soft_wrap": "editor_width",
   "buffer_font_family": "JetBrainsMonoNL Nerd Font",
-  "ui_font_family": "JetBrainsMonoNL Nerd Font",
-  "features": {
-    "edit_prediction_provider": "copilot"
-  }
+  "ui_font_family": "JetBrainsMonoNL Nerd Font"
 }
